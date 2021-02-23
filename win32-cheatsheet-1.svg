@@ -25,7 +25,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
      inkscape:cx="445.85332"
-     inkscape:cy="516.83364"
+     inkscape:cy="460.2651"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -206,7 +206,7 @@
          x="10.116878"
          y="104.84179"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan498">typedef const TCHAR *LPCTSTR; // for text</tspan><tspan
+         id="tspan498">typedef const TCHAR *LPCTSTR; // psz for text</tspan><tspan
          sodipodi:role="line"
          x="10.116878"
          y="109.25152"
@@ -390,12 +390,12 @@
          style="font-size:3.52778px;stroke-width:0.264583"
          id="tspan2674">    // <tspan
    style="font-style:italic"
-   id="tspan1793">name</tspan> is the resource name</tspan><tspan
+   id="tspan1793">name</tspan> is the dialog resource name; or</tspan><tspan
          sodipodi:role="line"
          x="93.65316"
          y="164.54805"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan1536">    // or MAKEINTRESOURCE(res_id).</tspan><tspan
+         id="tspan1536">    // MAKEINTRESOURCE(res_id). (Use resource editor)</tspan><tspan
          sodipodi:role="line"
          x="93.65316"
          y="168.95778"
@@ -405,12 +405,12 @@
          x="93.65316"
          y="173.36751"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan1532">id = DialogBox(hInst, name, hwndParent, DialogProc,</tspan><tspan
+         id="tspan1532">id = DialogBoxParam(hInst, name, hwndParent,</tspan><tspan
          sodipodi:role="line"
          x="93.65316"
          y="177.77722"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan1528">                        pData);</tspan><tspan
+         id="tspan1528">                                   DialogProc, pData);</tspan><tspan
          sodipodi:role="line"
          x="93.65316"
          y="182.18695"
@@ -718,7 +718,7 @@
          x="195.38014"
          y="146.06503"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan183">SetWindwoText(hwnd, text);</tspan></text>
+         id="tspan183">SetWindowText(hwnd, text);</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -911,6 +911,6 @@
          id="tspan180"
          x="59.795834"
          y="12.003659"
-         style="font-size:3.175px;stroke-width:0.264583">ver.0.4</tspan></text>
+         style="font-size:3.175px;stroke-width:0.264583">ver.0.5</tspan></text>
   </g>
 </svg>
