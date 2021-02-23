@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="1042.8389"
-     inkscape:cy="247.2223"
+     inkscape:cx="547.07088"
+     inkscape:cy="189.2223"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -52,28 +52,37 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <g
-       id="g3776"
-       transform="translate(0,1.5875)">
-      <rect
-         style="fill:#ffffff;stroke:#000000;stroke-width:0.83762;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
-         id="rect502"
-         width="62.057423"
-         height="9.6873789"
-         x="6.0042272"
-         y="4.4167266" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-         x="15.183126"
-         y="10.838613"
-         id="text12"><tspan
-           sodipodi:role="line"
-           id="tspan10"
-           x="15.183126"
-           y="10.838613"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583">Win32 Cheatsheet</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="77.926888"
+       y="8.7219496"
+       id="text12-70"><tspan
+         sodipodi:role="line"
+         id="tspan10-7"
+         x="77.926888"
+         y="8.7219496"
+         style="font-size:4.23333px;stroke-width:0.264583">© 2021 katahiromz (under MIT License)</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.873243;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+       id="rect502"
+       width="67.44809"
+       height="9.6873789"
+       x="4.4642963"
+       y="6.0042267" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="9.4779749"
+       y="12.426112"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="9.4779749"
+         y="12.426112"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-width:0.264583">Win32 Cheatsheet<tspan
+   style="font-weight:normal"
+   id="tspan175" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -659,42 +668,42 @@
          x="195.38014"
          y="101.96777"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan2662">ShowWindow(hwnd, SW_SHOW or SW_HIDE);</tspan><tspan
+         id="tspan3282">ShowWindow(hwnd, SW_SHOW or SW_HIDE);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="106.3775"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3282" /><tspan
+         id="tspan3276">b = IsChild(hwndParent, hwnd);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="110.78722"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3276">b = IsChild(hwndParent, hwnd);</tspan><tspan
+         id="tspan3254">SetParent(hwndChild, hwndNewParent);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="115.19695"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3254">SetParent(hwndChild, hwndNewParent);</tspan><tspan
+         id="tspan3290">bMaximized = IsZoomed(hwnd);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="119.60667"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3290">bMaximized = IsZoomed(hwnd);</tspan><tspan
+         id="tspan3256">ShowWindow(hwnd, SW_MAXIMIZE);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="124.0164"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3256">ShowWindow(hwnd, SW_MAXIMIZE);</tspan><tspan
+         id="tspan3288">bMinimized = IsIconic(hwnd);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="128.42613"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3288">bMinimized = IsIconic(hwnd);</tspan><tspan
+         id="tspan3258">ShowWindow(hwnd, SW_MINIMIZE);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="132.83585"
          style="font-size:3.52778px;stroke-width:0.264583"
-         id="tspan3258">ShowWindow(hwnd, SW_MINIMIZE);</tspan><tspan
+         id="tspan179">ShowWindow(hwnd, SW_RESTORE);</tspan><tspan
          sodipodi:role="line"
          x="195.38014"
          y="137.24557"
@@ -894,14 +903,14 @@
    id="tspan3763">Procedures</tspan> (callback functions)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="71.047714"
-       y="8.7219496"
-       id="text12-70"><tspan
+       style="font-style:normal;font-weight:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="57.149998"
+       y="12.003659"
+       id="text182"><tspan
          sodipodi:role="line"
-         id="tspan10-7"
-         x="71.047714"
-         y="8.7219496"
-         style="font-size:4.23333px;stroke-width:0.264583">© 2021 katahiromz (under MIT License)</tspan></text>
+         id="tspan180"
+         x="57.149998"
+         y="12.003659"
+         style="font-size:3.175px;stroke-width:0.264583">ver.0.3</tspan></text>
   </g>
 </svg>
